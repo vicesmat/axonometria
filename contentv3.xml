@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<instance xmlns="http://www.exelearning.org/content/v0.3" reference="2" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
+<instance xmlns="http://www.exelearning.org/content/v0.3" reference="1" version="0.3" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemalocation="http://www.exelearning.org/content/v0.3 content.xsd" class="exe.engine.package.Package">
  <dictionary>
   <string role="key" value="_title"></string>
-  <unicode value="axonometria"></unicode>
+  <unicode value="LA PERSPECTIVA AXONOMÉTRICA COMO SISTEMA DE REPRESENTACIÓN"></unicode>
   <string role="key" value="idevices"></string>
   <list></list>
   <string role="key" value="_addPagination"></string>
@@ -11,15 +11,34 @@
   <string role="key" value="_addSearchBox"></string>
   <bool value="0"></bool>
   <string role="key" value="_author"></string>
-  <unicode value="crmxkngrtgxb,rt"></unicode>
+  <unicode value="Irene Bixquet Vicente"></unicode>
   <string role="key" value="_backgroundImg"></string>
-  <unicode value=""></unicode>
+  <instance class="exe.engine.resource.Resource" reference="157">
+   <dictionary>
+    <string role="key" value="_idevice"></string>
+    <none></none>
+    <string role="key" value="_package"></string>
+    <reference key="1"></reference>
+    <string role="key" value="_storageName"></string>
+    <string value="fondo.jpg"></string>
+    <string role="key" value="_userName"></string>
+    <string value="C:\\Users\\media\\Documents\\CLASE EXE LEARNING\\fondo.jpg"></string>
+    <string role="key" value="checksum"></string>
+    <string value="49957fd604d1ad93f324f39d0e46a33a"></string>
+    <string role="key" value="exe.engine.resource.Resource.persistenceVersion"></string>
+    <int value="2"></int>
+    <string role="key" value="exe.engine.resource._Resource.persistenceVersion"></string>
+    <int value="2"></int>
+    <string role="key" value="warningMsg"></string>
+    <string value=""></string>
+   </dictionary>
+  </instance>
   <string role="key" value="_contextMode"></string>
-  <unicode value=""></unicode>
+  <unicode value="presencial"></unicode>
   <string role="key" value="_contextPlace"></string>
-  <unicode value=""></unicode>
+  <unicode value="classroom"></unicode>
   <string role="key" value="_description"></string>
-  <unicode value="vmjgmbcxrtnioenyt"></unicode>
+  <unicode value="En este documento trabajaremos los fundamentos de los sistemas de representación. Posteriormente veremos de forma más específica el sistema axonométrico, exponiendo sus características y fundamentos, para posteriormente identificar los pasos para la ejecución de una perspectiva axonométrica. Finalmente se proponen ejercicios de autoevaluación para comprobar lo aprendido durante la unidad y se propone un ejercicio más complejo a desarrollar en clase."></unicode>
   <string role="key" value="_docType"></string>
   <unicode value="HTML5"></unicode>
   <string role="key" value="_exportElp"></string>
@@ -67,7 +86,7 @@
   <string role="key" value="_intendedEndUserRoleTutor"></string>
   <bool value="0"></bool>
   <string role="key" value="_intendedEndUserRoleType"></string>
-  <unicode value=""></unicode>
+  <unicode value="learner"></unicode>
   <string role="key" value="_isChanged"></string>
   <bool value="0"></bool>
   <string role="key" value="_isTemplate"></string>
@@ -94,10 +113,10 @@
    <instance class="exe.engine.node.Node" reference="4">
     <dictionary>
      <string role="key" value="_title"></string>
-     <unicode value="LOS SISTEMAS DE REPRESENTACIÓN"></unicode>
+     <unicode value="LA PERSPECTIVA AXONOMÉTRICA COMO SISTEMA DE REPRESENTACIÓN"></unicode>
      <string role="key" value="idevices"></string>
      <list>
-      <instance class="exe.engine.jsidevice.JsIdevice" reference="1">
+      <instance class="exe.engine.jsidevice.JsIdevice" reference="2">
        <dictionary>
         <string role="key" value="_title"></string>
         <unicode value="INTRODUCCIÓN"></unicode>
@@ -161,7 +180,7 @@
            <string role="key" value="_id"></string>
            <unicode value="112_2"></unicode>
            <string role="key" value="_idevice"></string>
-           <reference key="1"></reference>
+           <reference key="2"></reference>
            <string role="key" value="_instruc"></string>
            <string value=""></string>
            <string role="key" value="_name"></string>
@@ -222,9 +241,9 @@
                 <instance class="exe.engine.resource.Resource" reference="5">
                  <dictionary>
                   <string role="key" value="_idevice"></string>
-                  <reference key="1"></reference>
-                  <string role="key" value="_package"></string>
                   <reference key="2"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="1"></reference>
                   <string role="key" value="_storageName"></string>
                   <string value="newspaper-rock-art-4003121_1280.jpg"></string>
                   <string role="key" value="_userName"></string>
@@ -274,9 +293,9 @@
                 <instance class="exe.engine.resource.Resource" reference="6">
                  <dictionary>
                   <string role="key" value="_idevice"></string>
-                  <reference key="1"></reference>
-                  <string role="key" value="_package"></string>
                   <reference key="2"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="1"></reference>
                   <string role="key" value="_storageName"></string>
                   <string value="364px-Venus_of_Willendorf_frontview_retouched_2.jpg"></string>
                   <string role="key" value="_userName"></string>
@@ -326,9 +345,9 @@
                 <instance class="exe.engine.resource.Resource" reference="7">
                  <dictionary>
                   <string role="key" value="_idevice"></string>
-                  <reference key="1"></reference>
-                  <string role="key" value="_package"></string>
                   <reference key="2"></reference>
+                  <string role="key" value="_package"></string>
+                  <reference key="1"></reference>
                   <string role="key" value="_storageName"></string>
                   <string value="800px-Piero_della_Francesca,_La_flagellazione_di_Cristo_01.jpg"></string>
                   <string role="key" value="_userName"></string>
@@ -368,7 +387,7 @@
          </instance>
         </list>
         <string role="key" value="icon"></string>
-        <unicode value=""></unicode>
+        <unicode value="bulb"></unicode>
         <string role="key" value="id"></string>
         <unicode value="0"></unicode>
         <string role="key" value="ideviceCategory"></string>
@@ -399,7 +418,7 @@
      <string role="key" value="_id"></string>
      <unicode value="0"></unicode>
      <string role="key" value="_package"></string>
-     <reference key="2"></reference>
+     <reference key="1"></reference>
      <string role="key" value="anchor_fields"></string>
      <list></list>
      <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -407,7 +426,7 @@
      <string role="key" value="exportType"></string>
      <string value="website"></string>
      <string role="key" value="last_full_node_path"></string>
-     <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N"></string>
+     <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N"></string>
      <string role="key" value="parent"></string>
      <none></none>
      <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -527,7 +546,7 @@
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
+           <unicode value="gears"></unicode>
            <string role="key" value="id"></string>
            <unicode value="2"></unicode>
            <string role="key" value="ideviceCategory"></string>
@@ -652,7 +671,7 @@
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
+           <unicode value="classroom"></unicode>
            <string role="key" value="id"></string>
            <unicode value="3"></unicode>
            <string role="key" value="ideviceCategory"></string>
@@ -783,7 +802,7 @@
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
+           <unicode value="atom"></unicode>
            <string role="key" value="id"></string>
            <unicode value="5"></unicode>
            <string role="key" value="ideviceCategory"></string>
@@ -912,7 +931,7 @@
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
+           <unicode value="knowledge"></unicode>
            <string role="key" value="id"></string>
            <unicode value="6"></unicode>
            <string role="key" value="ideviceCategory"></string>
@@ -1037,7 +1056,7 @@
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
+           <unicode value="footprints"></unicode>
            <string role="key" value="id"></string>
            <unicode value="7"></unicode>
            <string role="key" value="ideviceCategory"></string>
@@ -1064,7 +1083,7 @@
         <string role="key" value="_id"></string>
         <unicode value="1"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="2"></reference>
+        <reference key="1"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -1072,7 +1091,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Justificaci%C3%B3n%20de%20la%20actividad"></string>
+        <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Justificaci%C3%B3n%20de%20la%20actividad"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1190,7 +1209,7 @@
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
+           <unicode value="bulb"></unicode>
            <string role="key" value="id"></string>
            <unicode value="9"></unicode>
            <string role="key" value="ideviceCategory"></string>
@@ -1318,7 +1337,7 @@
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
+           <unicode value="bulb"></unicode>
            <string role="key" value="id"></string>
            <unicode value="10"></unicode>
            <string role="key" value="ideviceCategory"></string>
@@ -1467,7 +1486,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="24"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="ESQUEMA_perspectivas.jpg"></string>
                      <string role="key" value="_userName"></string>
@@ -1519,7 +1538,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="24"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="Proyeccion_tipos.png"></string>
                      <string role="key" value="_userName"></string>
@@ -1559,7 +1578,7 @@
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
+           <unicode value="bulb"></unicode>
            <string role="key" value="id"></string>
            <unicode value="11"></unicode>
            <string role="key" value="ideviceCategory"></string>
@@ -1589,7 +1608,7 @@
         <string role="key" value="_id"></string>
         <unicode value="2"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="2"></reference>
+        <reference key="1"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -1597,7 +1616,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n"></string>
+        <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1728,7 +1747,7 @@
                         <string role="key" value="_idevice"></string>
                         <reference key="28"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="285px-Geometrie_descriptive_elements_base.svg.png"></string>
                         <string role="key" value="_userName"></string>
@@ -1797,7 +1816,7 @@
            <string role="key" value="_id"></string>
            <unicode value="3"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="2"></reference>
+           <reference key="1"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -1805,7 +1824,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20de%20sistema%20di%C3%A9drico"></string>
+           <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20de%20sistema%20di%C3%A9drico"></string>
            <string role="key" value="parent"></string>
            <reference key="21"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -1938,7 +1957,7 @@
                         <string role="key" value="_idevice"></string>
                         <reference key="32"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="800px-COTAS.jpg"></string>
                         <string role="key" value="_userName"></string>
@@ -2007,7 +2026,7 @@
            <string role="key" value="_id"></string>
            <unicode value="6"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="2"></reference>
+           <reference key="1"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -2015,7 +2034,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20de%20sistema%20de%20planos%20acotados"></string>
+           <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20de%20sistema%20de%20planos%20acotados"></string>
            <string role="key" value="parent"></string>
            <reference key="21"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2148,7 +2167,7 @@
                         <string role="key" value="_idevice"></string>
                         <reference key="36"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="Perspectiva_13.svg.png"></string>
                         <string role="key" value="_userName"></string>
@@ -2217,7 +2236,7 @@
            <string role="key" value="_id"></string>
            <unicode value="4"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="2"></reference>
+           <reference key="1"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -2225,7 +2244,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20axonometr%C3%ADa"></string>
+           <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20axonometr%C3%ADa"></string>
            <string role="key" value="parent"></string>
            <reference key="21"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2356,7 +2375,7 @@
                            <string role="key" value="_idevice"></string>
                            <reference key="40"></reference>
                            <string role="key" value="_package"></string>
-                           <reference key="2"></reference>
+                           <reference key="1"></reference>
                            <string role="key" value="_storageName"></string>
                            <string value="Perspectiva_01.svg.png"></string>
                            <string role="key" value="_userName"></string>
@@ -2425,7 +2444,7 @@
               <string role="key" value="_id"></string>
               <unicode value="5"></unicode>
               <string role="key" value="_package"></string>
-              <reference key="2"></reference>
+              <reference key="1"></reference>
               <string role="key" value="anchor_fields"></string>
               <list></list>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -2433,7 +2452,7 @@
               <string role="key" value="exportType"></string>
               <string value="website"></string>
               <string role="key" value="last_full_node_path"></string>
-              <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20axonometr%C3%ADa:Ejemplo%20de%20perspectiva%20caballera"></string>
+              <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20axonometr%C3%ADa:Ejemplo%20de%20perspectiva%20caballera"></string>
               <string role="key" value="parent"></string>
               <reference key="38"></reference>
               <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2569,7 +2588,7 @@
                         <string role="key" value="_idevice"></string>
                         <reference key="44"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="800px-Conica-Construccion_01.png"></string>
                         <string role="key" value="_userName"></string>
@@ -2638,7 +2657,7 @@
            <string role="key" value="_id"></string>
            <unicode value="7"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="2"></reference>
+           <reference key="1"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -2646,7 +2665,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20de%20perspectiva%20c%C3%B3nica"></string>
+           <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Fundamentos%20de%20los%20sistemas%20de%20representaci%C3%B3n:Ejemplo%20de%20perspectiva%20c%C3%B3nica"></string>
            <string role="key" value="parent"></string>
            <reference key="21"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -2661,7 +2680,7 @@
       <instance class="exe.engine.node.Node" reference="50">
        <dictionary>
         <string role="key" value="_title"></string>
-        <unicode value="Sistema axonométrico"></unicode>
+        <unicode value="EL SISTEMA AXONOMÉTRICO"></unicode>
         <string role="key" value="idevices"></string>
         <list>
          <instance class="exe.engine.jsidevice.JsIdevice" reference="48">
@@ -2784,7 +2803,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="48"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="Goodgame_Empire_Screenshot_Burg_(1).jpg"></string>
                      <string role="key" value="_userName"></string>
@@ -2853,7 +2872,7 @@
         <string role="key" value="_id"></string>
         <unicode value="8"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="2"></reference>
+        <reference key="1"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -2861,7 +2880,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Sistema%20axonom%C3%A9trico"></string>
+        <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:EL%20SISTEMA%20AXONOM%C3%89TRICO"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3120,7 +3139,7 @@
                         <string role="key" value="_idevice"></string>
                         <reference key="55"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="Axonometria._Ejes_proyectados.jpg"></string>
                         <string role="key" value="_userName"></string>
@@ -3160,7 +3179,7 @@
                </instance>
               </list>
               <string role="key" value="icon"></string>
-              <unicode value=""></unicode>
+              <unicode value="bulb"></unicode>
               <string role="key" value="id"></string>
               <unicode value="22"></unicode>
               <string role="key" value="ideviceCategory"></string>
@@ -3189,7 +3208,7 @@
            <string role="key" value="_id"></string>
            <unicode value="10"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="2"></reference>
+           <reference key="1"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -3197,7 +3216,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Sistema%20axonom%C3%A9trico:Introducci%C3%B3n"></string>
+           <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:EL%20SISTEMA%20AXONOM%C3%89TRICO:Introducci%C3%B3n"></string>
            <string role="key" value="parent"></string>
            <reference key="50"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3331,7 +3350,7 @@
                         <string role="key" value="_idevice"></string>
                         <reference key="58"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="ESQUEMA_perspectivas.jpg"></string>
                         <string role="key" value="_userName"></string>
@@ -3400,7 +3419,7 @@
            <string role="key" value="_id"></string>
            <unicode value="16"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="2"></reference>
+           <reference key="1"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -3408,7 +3427,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Sistema%20axonom%C3%A9trico:Clases%20de%20axonometr%C3%ADas"></string>
+           <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:EL%20SISTEMA%20AXONOM%C3%89TRICO:Clases%20de%20axonometr%C3%ADas"></string>
            <string role="key" value="parent"></string>
            <reference key="50"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3545,7 +3564,7 @@
                            <string role="key" value="_idevice"></string>
                            <reference key="62"></reference>
                            <string role="key" value="_package"></string>
-                           <reference key="2"></reference>
+                           <reference key="1"></reference>
                            <string role="key" value="_storageName"></string>
                            <string value="Presentacion1.jpg"></string>
                            <string role="key" value="_userName"></string>
@@ -3747,7 +3766,7 @@
               <string role="key" value="_id"></string>
               <unicode value="13"></unicode>
               <string role="key" value="_package"></string>
-              <reference key="2"></reference>
+              <reference key="1"></reference>
               <string role="key" value="anchor_fields"></string>
               <list></list>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -3755,7 +3774,7 @@
               <string role="key" value="exportType"></string>
               <string value="website"></string>
               <string role="key" value="last_full_node_path"></string>
-              <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Sistema%20axonom%C3%A9trico:Clases%20de%20axonometr%C3%ADas:Axonometr%C3%ADa%20ortogonal"></string>
+              <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:EL%20SISTEMA%20AXONOM%C3%89TRICO:Clases%20de%20axonometr%C3%ADas:Axonometr%C3%ADa%20ortogonal"></string>
               <string role="key" value="parent"></string>
               <reference key="60"></reference>
               <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -3892,7 +3911,7 @@
                               <string role="key" value="_idevice"></string>
                               <reference key="68"></reference>
                               <string role="key" value="_package"></string>
-                              <reference key="2"></reference>
+                              <reference key="1"></reference>
                               <string role="key" value="_storageName"></string>
                               <string value="400px-Cartabon_11.svg.png"></string>
                               <string role="key" value="_userName"></string>
@@ -3944,7 +3963,7 @@
                               <string role="key" value="_idevice"></string>
                               <reference key="68"></reference>
                               <string role="key" value="_package"></string>
-                              <reference key="2"></reference>
+                              <reference key="1"></reference>
                               <string role="key" value="_storageName"></string>
                               <string value="dibujo_ejes_escuadra_y_cartabon.jpg"></string>
                               <string role="key" value="_userName"></string>
@@ -4014,7 +4033,7 @@
                  <string role="key" value="_id"></string>
                  <unicode value="15"></unicode>
                  <string role="key" value="_package"></string>
-                 <reference key="2"></reference>
+                 <reference key="1"></reference>
                  <string role="key" value="anchor_fields"></string>
                  <list></list>
                  <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -4022,7 +4041,7 @@
                  <string role="key" value="exportType"></string>
                  <string value="website"></string>
                  <string role="key" value="last_full_node_path"></string>
-                 <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Sistema%20axonom%C3%A9trico:Clases%20de%20axonometr%C3%ADas:Axonometr%C3%ADa%20ortogonal:Construcci%C3%B3n%20de%20los%20ejes%20con%20escuadra%20y%20cartab%C3%B3n"></string>
+                 <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:EL%20SISTEMA%20AXONOM%C3%89TRICO:Clases%20de%20axonometr%C3%ADas:Axonometr%C3%ADa%20ortogonal:Construcci%C3%B3n%20de%20los%20ejes%20con%20escuadra%20y%20cartab%C3%B3n"></string>
                  <string role="key" value="parent"></string>
                  <reference key="64"></reference>
                  <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4161,7 +4180,7 @@
                            <string role="key" value="_idevice"></string>
                            <reference key="73"></reference>
                            <string role="key" value="_package"></string>
-                           <reference key="2"></reference>
+                           <reference key="1"></reference>
                            <string role="key" value="_storageName"></string>
                            <string value="Diapositiva2.JPG"></string>
                            <string role="key" value="_userName"></string>
@@ -4350,7 +4369,7 @@
                            <string role="key" value="_idevice"></string>
                            <reference key="77"></reference>
                            <string role="key" value="_package"></string>
-                           <reference key="2"></reference>
+                           <reference key="1"></reference>
                            <string role="key" value="_storageName"></string>
                            <string value="CR-escala-6.png"></string>
                            <string role="key" value="_userName"></string>
@@ -4419,7 +4438,7 @@
               <string role="key" value="_id"></string>
               <unicode value="14"></unicode>
               <string role="key" value="_package"></string>
-              <reference key="2"></reference>
+              <reference key="1"></reference>
               <string role="key" value="anchor_fields"></string>
               <list></list>
               <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -4427,7 +4446,7 @@
               <string role="key" value="exportType"></string>
               <string value="website"></string>
               <string role="key" value="last_full_node_path"></string>
-              <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Sistema%20axonom%C3%A9trico:Clases%20de%20axonometr%C3%ADas:Coeficiente%20de%20reducci%C3%B3n"></string>
+              <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:EL%20SISTEMA%20AXONOM%C3%89TRICO:Clases%20de%20axonometr%C3%ADas:Coeficiente%20de%20reducci%C3%B3n"></string>
               <string role="key" value="parent"></string>
               <reference key="60"></reference>
               <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4576,7 +4595,7 @@
                         <string role="key" value="_idevice"></string>
                         <reference key="80"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="480px-Cabinet_perspective_45.svg.png"></string>
                         <string role="key" value="_userName"></string>
@@ -4628,7 +4647,7 @@
                         <string role="key" value="_idevice"></string>
                         <reference key="80"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="Militarperspektive.png"></string>
                         <string role="key" value="_userName"></string>
@@ -4698,7 +4717,7 @@
            <string role="key" value="_id"></string>
            <unicode value="19"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="2"></reference>
+           <reference key="1"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -4706,7 +4725,7 @@
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Sistema%20axonom%C3%A9trico:Axonometr%C3%ADa%20obl%C3%ADcua"></string>
+           <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:EL%20SISTEMA%20AXONOM%C3%89TRICO:Axonometr%C3%ADa%20obl%C3%ADcua"></string>
            <string role="key" value="parent"></string>
            <reference key="50"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -4860,7 +4879,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="85"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="00.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -4912,7 +4931,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="85"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="01.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -4964,7 +4983,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="85"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="02.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5016,7 +5035,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="85"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="03.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5068,7 +5087,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="85"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="04.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5277,7 +5296,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="93"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="00.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5329,7 +5348,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="93"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="01.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5381,7 +5400,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="93"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="05.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5433,7 +5452,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="93"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="06.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5485,7 +5504,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="93"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="07.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5537,7 +5556,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="93"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="08.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5743,7 +5762,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="101"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="00.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5795,7 +5814,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="101"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="01.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5847,7 +5866,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="101"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="09.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5899,7 +5918,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="101"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="10.1.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -5951,7 +5970,7 @@
                      <string role="key" value="_idevice"></string>
                      <reference key="101"></reference>
                      <string role="key" value="_package"></string>
-                     <reference key="2"></reference>
+                     <reference key="1"></reference>
                      <string role="key" value="_storageName"></string>
                      <string value="11.JPG"></string>
                      <string role="key" value="_userName"></string>
@@ -6024,7 +6043,7 @@
         <string role="key" value="_id"></string>
         <unicode value="21"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="2"></reference>
+        <reference key="1"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -6032,7 +6051,7 @@
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Y...%20%C2%BFC%C3%B3mo%20dibujo%20yo%20una%20axonometr%C3%ADa%3F"></string>
+        <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Y...%20%C2%BFC%C3%B3mo%20dibujo%20yo%20una%20axonometr%C3%ADa%3F"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -7378,7 +7397,7 @@ estudiante a responder la pregunta."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="12"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="2"></reference>
+        <reference key="1"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -7386,7 +7405,7 @@ estudiante a responder la pregunta."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:%C2%A1A%20practicar%21"></string>
+        <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:%C2%A1A%20practicar%21"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -7650,7 +7669,7 @@ estudiante a responder la pregunta."></unicode>
                         <string role="key" value="_idevice"></string>
                         <reference key="138"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="Maqueta-de-trabajo.jpg"></string>
                         <string role="key" value="_userName"></string>
@@ -7702,7 +7721,7 @@ estudiante a responder la pregunta."></unicode>
                         <string role="key" value="_idevice"></string>
                         <reference key="138"></reference>
                         <string role="key" value="_package"></string>
-                        <reference key="2"></reference>
+                        <reference key="1"></reference>
                         <string role="key" value="_storageName"></string>
                         <string value="video_axonometria.mp4"></string>
                         <string role="key" value="_userName"></string>
@@ -7742,7 +7761,7 @@ estudiante a responder la pregunta."></unicode>
                </instance>
               </list>
               <string role="key" value="icon"></string>
-              <unicode value=""></unicode>
+              <unicode value="write"></unicode>
               <string role="key" value="id"></string>
               <unicode value="41"></unicode>
               <string role="key" value="ideviceCategory"></string>
@@ -7772,7 +7791,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="_id"></string>
            <unicode value="22"></unicode>
            <string role="key" value="_package"></string>
-           <reference key="2"></reference>
+           <reference key="1"></reference>
            <string role="key" value="anchor_fields"></string>
            <list></list>
            <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -7780,7 +7799,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="exportType"></string>
            <string value="website"></string>
            <string role="key" value="last_full_node_path"></string>
-           <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:%C2%A1A%20practicar%21:Pr%C3%A1ctica%20final"></string>
+           <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:%C2%A1A%20practicar%21:Pr%C3%A1ctica%20final"></string>
            <string role="key" value="parent"></string>
            <reference key="110"></reference>
            <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -7948,7 +7967,7 @@ estudiante a responder la pregunta."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="11"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="2"></reference>
+        <reference key="1"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -7956,7 +7975,7 @@ estudiante a responder la pregunta."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Para%20ampliar"></string>
+        <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Para%20ampliar"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -8107,7 +8126,7 @@ estudiante a responder la pregunta."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="9"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="2"></reference>
+        <reference key="1"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -8115,7 +8134,7 @@ estudiante a responder la pregunta."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:Cr%C3%A9ditos%20y%20referencias"></string>
+        <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:Cr%C3%A9ditos%20y%20referencias"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -8204,7 +8223,7 @@ estudiante a responder la pregunta."></unicode>
               <string role="key" value="anchors_linked_from_fields"></string>
               <dictionary></dictionary>
               <string role="key" value="content_w_resourcePaths"></string>
-              <unicode content="true" value="&lt;table class='exe-table'&gt;&lt;caption&gt;Rúbrica de evaluación&lt;/caption&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Sobresaliente 4&lt;/th&gt;&lt;th&gt;Notable 3&lt;/th&gt;&lt;th&gt;Suficiente 2&lt;/th&gt;&lt;th&gt;Insuficiente 1&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;Regls básicas del sistema&lt;/th&gt;&lt;td&gt;Ha dibujado correctamente los ejes, ha ubicado bien la pieza en los ejes (ya sea ubicando una de las vistas, las tres o un cubo),ha trazado correctamente las paralelas a los ejes para conformar la pieza y ha resaltado la pieza final &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Ha dibujado correctamente los ejes, ha ubicado bien la pieza en los ejes (ya sea ubicando una de las vistas, las tres o un cubo),ha trazado correctamente las paralelas a los ejes para conformar la pieza &lt;span&gt;(2)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Ha dibujado correctamente los ejes, ha ubicado bien la pieza en los ejes (ya sea ubicando una de las vistas, las tres o un cubo), pero no ha realizado bien las paralelas para la conformación de la pieza &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No ha realizado los ejes. o si los ha dibujado, no los ha seguid en la conformación de la figura &lt;span&gt;(1)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Escala y proporción&lt;/th&gt;&lt;td&gt;Las proporciones de la pieza son correctas en toda la pieza y entre las diferentes caras y además utiliza una escala reconocible &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Pese a no utilizar una escala reconocible, las proporciones de la pieza son correctas en toda la pieza y entre las diferentes caras  &lt;span&gt;(2)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Pese a no utilizar una escala reconocible, las proporciones de la pieza son correctas en una de sus caras &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No ha aplicado ninguna escala y las proporciones no se corresponden con las de la pieza original &lt;span&gt;(1)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Aplicación coeficientes de reducción&lt;/th&gt;&lt;td&gt;Ha aplicado los coeficientes y ha dejado su cálculo gráfico o matemático especificado &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Ha aplicado los coeficientes de reducción en todos los ejes  &lt;span&gt;(2)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Ha aplicado los coeficientes de reducción casi todos los ejes  &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No ha aplicado coeficientes de reducción o los que ha aplicado son incorrectos &lt;span&gt;(1)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Grafismo&lt;/th&gt;&lt;td&gt;Se diferencian los ejes, las líneas auxiliares, las líneas de la pieza y el dibujo ha quedado limpio &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Se diferencian los ejes, las líneas auxiliares y las líneas de la pieza &lt;span&gt;(2)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Se diferencian los ejes pero no las líneas que conforman la pieza &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No ha modulado bien la línea, se confunden las líneas auxiliares con las principales y los ejes &lt;span&gt;(1)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul class=&quot;exe-rubric-strings&quot;&gt;&lt;li class=&quot;activity&quot;&gt;Actividad&lt;/li&gt;&lt;li class=&quot;name&quot;&gt;Nombre&lt;/li&gt;&lt;li class=&quot;date&quot;&gt;Fecha&lt;/li&gt;&lt;li class=&quot;score&quot;&gt;Puntuación&lt;/li&gt;&lt;li class=&quot;notes&quot;&gt;Notas&lt;/li&gt;&lt;li class=&quot;reset&quot;&gt;Reiniciar&lt;/li&gt;&lt;li class=&quot;print&quot;&gt;Imprimir&lt;/li&gt;&lt;li class=&quot;apply&quot;&gt;Aplicar&lt;/li&gt;&lt;li class=&quot;newWindow&quot;&gt;Ventana nueva&lt;/li&gt;&lt;/ul&gt;"></unicode>
+              <unicode content="true" value="&lt;table class='exe-table'&gt;&lt;caption&gt;Rúbrica de evaluación&lt;/caption&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;&amp;nbsp;&lt;/th&gt;&lt;th&gt;Sobresaliente 4&lt;/th&gt;&lt;th&gt;Notable 3&lt;/th&gt;&lt;th&gt;Suficiente 2&lt;/th&gt;&lt;th&gt;Insuficiente 1&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;th&gt;Reglas básicas del sistema&lt;/th&gt;&lt;td&gt;Ha dibujado correctamente los ejes, ha ubicado bien la pieza en los ejes (ya sea ubicando una de las vistas, las tres o un cubo),ha trazado correctamente las paralelas a los ejes para conformar la pieza y ha resaltado la pieza final &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Ha dibujado correctamente los ejes, ha ubicado bien la pieza en los ejes (ya sea ubicando una de las vistas, las tres o un cubo),ha trazado correctamente las paralelas a los ejes para conformar la pieza &lt;span&gt;(2)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Ha dibujado correctamente los ejes, ha ubicado bien la pieza en los ejes (ya sea ubicando una de las vistas, las tres o un cubo), pero no ha realizado bien las paralelas para la conformación de la pieza &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No ha realizado los ejes. o si los ha dibujado, no los ha seguid en la conformación de la figura &lt;span&gt;(1)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Escala y proporción&lt;/th&gt;&lt;td&gt;Las proporciones de la pieza son correctas en toda la pieza y entre las diferentes caras y además utiliza una escala reconocible &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Pese a no utilizar una escala reconocible, las proporciones de la pieza son correctas en toda la pieza y entre las diferentes caras  &lt;span&gt;(2)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Pese a no utilizar una escala reconocible, las proporciones de la pieza son correctas en una de sus caras &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No ha aplicado ninguna escala y las proporciones no se corresponden con las de la pieza original &lt;span&gt;(1)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Aplicación coeficientes de reducción&lt;/th&gt;&lt;td&gt;Ha aplicado los coeficientes y ha dejado su cálculo gráfico o matemático especificado &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Ha aplicado los coeficientes de reducción en todos los ejes  &lt;span&gt;(2)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Ha aplicado los coeficientes de reducción casi todos los ejes  &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No ha aplicado coeficientes de reducción o los que ha aplicado son incorrectos &lt;span&gt;(1)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;th&gt;Grafismo&lt;/th&gt;&lt;td&gt;Se diferencian los ejes, las líneas auxiliares, las líneas de la pieza y el dibujo ha quedado limpio &lt;span&gt;(2.5)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Se diferencian los ejes, las líneas auxiliares y las líneas de la pieza &lt;span&gt;(2)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;Se diferencian los ejes pero no las líneas que conforman la pieza &lt;span&gt;(1.50)&lt;/span&gt;&lt;/td&gt;&lt;td&gt;No ha modulado bien la línea, se confunden las líneas auxiliares con las principales y los ejes &lt;span&gt;(1)&lt;/span&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;ul class=&quot;exe-rubric-strings&quot;&gt;&lt;li class=&quot;activity&quot;&gt;Actividad&lt;/li&gt;&lt;li class=&quot;name&quot;&gt;Nombre&lt;/li&gt;&lt;li class=&quot;date&quot;&gt;Fecha&lt;/li&gt;&lt;li class=&quot;score&quot;&gt;Puntuación&lt;/li&gt;&lt;li class=&quot;notes&quot;&gt;Notas&lt;/li&gt;&lt;li class=&quot;reset&quot;&gt;Reiniciar&lt;/li&gt;&lt;li class=&quot;print&quot;&gt;Imprimir&lt;/li&gt;&lt;li class=&quot;apply&quot;&gt;Aplicar&lt;/li&gt;&lt;li class=&quot;newWindow&quot;&gt;Ventana nueva&lt;/li&gt;&lt;/ul&gt;"></unicode>
               <string role="key" value="exe.engine.field.Field.persistenceVersion"></string>
               <int value="4"></int>
               <string role="key" value="exe.engine.field.FieldWithResources.persistenceVersion"></string>
@@ -8232,7 +8251,7 @@ estudiante a responder la pregunta."></unicode>
             </instance>
            </list>
            <string role="key" value="icon"></string>
-           <unicode value=""></unicode>
+           <unicode value="award"></unicode>
            <string role="key" value="id"></string>
            <unicode value="46"></unicode>
            <string role="key" value="ideviceCategory"></string>
@@ -8259,7 +8278,7 @@ estudiante a responder la pregunta."></unicode>
         <string role="key" value="_id"></string>
         <unicode value="23"></unicode>
         <string role="key" value="_package"></string>
-        <reference key="2"></reference>
+        <reference key="1"></reference>
         <string role="key" value="anchor_fields"></string>
         <list></list>
         <string role="key" value="exe.engine.node.Node.persistenceVersion"></string>
@@ -8267,7 +8286,7 @@ estudiante a responder la pregunta."></unicode>
         <string role="key" value="exportType"></string>
         <string value="website"></string>
         <string role="key" value="last_full_node_path"></string>
-        <string value="exe-node:LOS%20SISTEMAS%20DE%20REPRESENTACI%C3%93N:R%C3%BAbrica%20de%20evaluaci%C3%B3n"></string>
+        <string value="exe-node:LA%20PERSPECTIVA%20AXONOM%C3%89TRICA%20COMO%20SISTEMA%20DE%20REPRESENTACI%C3%93N:R%C3%BAbrica%20de%20evaluaci%C3%B3n"></string>
         <string role="key" value="parent"></string>
         <reference key="4"></reference>
         <string role="key" value="top_anchors_linked_from_fields"></string>
@@ -8321,7 +8340,11 @@ estudiante a responder la pregunta."></unicode>
    <reference key="147"></reference>
   </dictionary>
   <string role="key" value="_objectives"></string>
-  <unicode value=""></unicode>
+  <unicode value="Los objetivos de esta unidad son:
+
+Aprender qué es un sistema de representación
+Aprender los fundamentos de los sistemas de representación, en particular del sistema axonométrico
+Ser capaces de crear la representación axonométrica del objeto realizado por el alumno"></unicode>
   <string role="key" value="_preknowledge"></string>
   <unicode value=""></unicode>
   <string role="key" value="_templateFile"></string>
@@ -8329,7 +8352,7 @@ estudiante a responder la pregunta."></unicode>
   <string role="key" value="backgroundImgTile"></string>
   <bool value="0"></bool>
   <string role="key" value="currentNode"></string>
-  <reference key="137"></reference>
+  <reference key="4"></reference>
   <string role="key" value="dublinCore"></string>
   <instance class="exe.engine.package.DublinCore">
    <dictionary>
@@ -8338,11 +8361,11 @@ estudiante a responder la pregunta."></unicode>
     <string role="key" value="coverage"></string>
     <unicode value=""></unicode>
     <string role="key" value="creator"></string>
-    <unicode value="crmxkngrtgxb,rt"></unicode>
+    <unicode value="Irene Bixquet Vicente"></unicode>
     <string role="key" value="date"></string>
     <unicode value=""></unicode>
     <string role="key" value="description"></string>
-    <unicode value="vmjgmbcxrtnioenyt"></unicode>
+    <unicode value="En este documento trabajaremos los fundamentos de los sistemas de representación. Posteriormente veremos de forma más específica el sistema axonométrico, exponiendo sus características y fundamentos, para posteriormente identificar los pasos para la ejecución de una perspectiva axonométrica. Finalmente se proponen ejercicios de autoevaluación para comprobar lo aprendido durante la unidad y se propone un ejercicio más complejo a desarrollar en clase."></unicode>
     <string role="key" value="format"></string>
     <unicode value=""></unicode>
     <string role="key" value="identifier"></string>
@@ -8360,7 +8383,7 @@ estudiante a responder la pregunta."></unicode>
     <string role="key" value="subject"></string>
     <unicode value=""></unicode>
     <string role="key" value="title"></string>
-    <unicode value="axonometria"></unicode>
+    <unicode value="LA PERSPECTIVA AXONOMÉTRICA COMO SISTEMA DE REPRESENTACIÓN"></unicode>
     <string role="key" value="type"></string>
     <unicode value=""></unicode>
    </dictionary>
@@ -8372,7 +8395,7 @@ estudiante a responder la pregunta."></unicode>
   <string role="key" value="exportSource"></string>
   <bool value="1"></bool>
   <string role="key" value="footer"></string>
-  <string value=""></string>
+  <unicode value=""></unicode>
   <string role="key" value="isLoading"></string>
   <bool value="0"></bool>
   <string role="key" value="license"></string>
@@ -8395,13 +8418,139 @@ estudiante a responder la pregunta."></unicode>
        <string role="key" value="cognitiveProcess"></string>
        <list></list>
        <string role="key" value="context"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="other"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="school"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="description"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.descriptionSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="OBJETIVOS: Los objetivos de esta unidad son:
+
+Aprender qué es un sistema de representación
+Aprender los fundamentos de los sistemas de representación, en particular del sistema axonométrico
+Ser capaces de crear la representación axonométrica del objeto realizado por el alumno"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="difficulty"></string>
        <none></none>
        <string role="key" value="intendedEndUserRole"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOMv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="interactivityLevel"></string>
        <none></none>
        <string role="key" value="interactivityType"></string>
@@ -8483,7 +8632,7 @@ estudiante a responder la pregunta."></unicode>
             <string role="key" value="language"></string>
             <string value="es"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="vmjgmbcxrtnioenyt"></string>
+            <string value="En este documento trabajaremos los fundamentos de los sistemas de representaci\xc3\xb3n. Posteriormente veremos de forma m\xc3\xa1s espec\xc3\xadfica el sistema axonom\xc3\xa9trico, exponiendo sus caracter\xc3\xadsticas y fundamentos, para posteriormente identificar los pasos para la ejecuci\xc3\xb3n de una perspectiva axonom\xc3\xa9trica. Finalmente se proponen ejercicios de autoevaluaci\xc3\xb3n para comprobar lo aprendido durante la unidad y se propone un ejercicio m\xc3\xa1s complejo a desarrollar en clase."></string>
            </dictionary>
           </instance>
          </list>
@@ -8542,7 +8691,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="axonometria"></string>
+           <string value="LA PERSPECTIVA AXONOM\xc3\x89TRICA COMO SISTEMA DE REPRESENTACI\xc3\x93N"></string>
           </dictionary>
          </instance>
         </list>
@@ -8606,7 +8755,7 @@ estudiante a responder la pregunta."></unicode>
             <string role="key" value="extensiontype_"></string>
             <none></none>
             <string role="key" value="valueOf_"></string>
-            <string value="BEGIN:VCARD VERSION:3.0 FN:crmxkngrtgxb,rt EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Irene Bixquet Vicente EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
            </dictionary>
           </instance>
          </list>
@@ -8678,6 +8827,96 @@ estudiante a responder la pregunta."></unicode>
            <none></none>
            <string role="key" value="source"></string>
            <reference key="153"></reference>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2021-12-11T18:17:25.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Irene Bixquet Vicente EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOMv1.0"></string>
+            </dictionary>
+           </instance>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -8798,13 +9037,139 @@ estudiante a responder la pregunta."></unicode>
        <string role="key" value="cognitiveProcess"></string>
        <list></list>
        <string role="key" value="context"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="presencial"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+        <instance class="exe.engine.lom.lomsubs.contextSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.contextValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="classroom"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="description"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.descriptionSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="string"></string>
+          <list>
+           <instance class="exe.engine.lom.lomsubs.LangStringSub">
+            <dictionary>
+             <string role="key" value="language"></string>
+             <string value="es"></string>
+             <string role="key" value="valueOf_"></string>
+             <unicode value="OBJETIVOS: Los objetivos de esta unidad son:
+
+Aprender qué es un sistema de representación
+Aprender los fundamentos de los sistemas de representación, en particular del sistema axonométrico
+Ser capaces de crear la representación axonométrica del objeto realizado por el alumno"></unicode>
+            </dictionary>
+           </instance>
+          </list>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="difficulty"></string>
        <none></none>
        <string role="key" value="intendedEndUserRole"></string>
-       <list></list>
+       <list>
+        <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleSub">
+         <dictionary>
+          <string role="key" value="extensiontype_"></string>
+          <none></none>
+          <string role="key" value="source"></string>
+          <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="string"></string>
+            <list></list>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="source"></string>
+            <string role="key" value="valueOf_"></string>
+            <string value="LOM-ESv1.0"></string>
+           </dictionary>
+          </instance>
+          <string role="key" value="value"></string>
+          <instance class="exe.engine.lom.lomsubs.intendedEndUserRoleValueSub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="source"></string>
+            <none></none>
+            <string role="key" value="uniqueElementName"></string>
+            <string value="value"></string>
+            <string role="key" value="value"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="learner"></string>
+           </dictionary>
+          </instance>
+         </dictionary>
+        </instance>
+       </list>
        <string role="key" value="interactivityLevel"></string>
        <none></none>
        <string role="key" value="interactivityType"></string>
@@ -8886,7 +9251,7 @@ estudiante a responder la pregunta."></unicode>
             <string role="key" value="language"></string>
             <string value="es"></string>
             <string role="key" value="valueOf_"></string>
-            <string value="vmjgmbcxrtnioenyt"></string>
+            <string value="En este documento trabajaremos los fundamentos de los sistemas de representaci\xc3\xb3n. Posteriormente veremos de forma m\xc3\xa1s espec\xc3\xadfica el sistema axonom\xc3\xa9trico, exponiendo sus caracter\xc3\xadsticas y fundamentos, para posteriormente identificar los pasos para la ejecuci\xc3\xb3n de una perspectiva axonom\xc3\xa9trica. Finalmente se proponen ejercicios de autoevaluaci\xc3\xb3n para comprobar lo aprendido durante la unidad y se propone un ejercicio m\xc3\xa1s complejo a desarrollar en clase."></string>
            </dictionary>
           </instance>
          </list>
@@ -8945,7 +9310,7 @@ estudiante a responder la pregunta."></unicode>
            <string role="key" value="language"></string>
            <string value="es"></string>
            <string role="key" value="valueOf_"></string>
-           <string value="axonometria"></string>
+           <string value="LA PERSPECTIVA AXONOM\xc3\x89TRICA COMO SISTEMA DE REPRESENTACI\xc3\x93N"></string>
           </dictionary>
          </instance>
         </list>
@@ -9009,7 +9374,7 @@ estudiante a responder la pregunta."></unicode>
             <string role="key" value="extensiontype_"></string>
             <none></none>
             <string role="key" value="valueOf_"></string>
-            <string value="BEGIN:VCARD VERSION:3.0 FN:crmxkngrtgxb,rt EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Irene Bixquet Vicente EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
            </dictionary>
           </instance>
          </list>
@@ -9081,6 +9446,96 @@ estudiante a responder la pregunta."></unicode>
            <none></none>
            <string role="key" value="source"></string>
            <reference key="156"></reference>
+           <string role="key" value="uniqueElementName"></string>
+           <string value="role"></string>
+           <string role="key" value="value"></string>
+           <instance class="exe.engine.lom.lomsubs.roleValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="source"></string>
+             <none></none>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="value"></string>
+             <string role="key" value="value"></string>
+             <none></none>
+             <string role="key" value="valueOf_"></string>
+             <string value="creator"></string>
+            </dictionary>
+           </instance>
+          </dictionary>
+         </instance>
+        </dictionary>
+       </instance>
+       <instance class="exe.engine.lom.lomsubs.contributeMetaSub">
+        <dictionary>
+         <string role="key" value="date"></string>
+         <instance class="exe.engine.lom.lomsubs.dateSub">
+          <dictionary>
+           <string role="key" value="dateTime"></string>
+           <instance class="exe.engine.lom.lomsubs.DateTimeValueSub">
+            <dictionary>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="dateTime"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="2021-12-11T18:17:25.00+01:00"></string>
+            </dictionary>
+           </instance>
+           <string role="key" value="description"></string>
+           <instance class="exe.engine.lom.lomsubs.LanguageStringSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list>
+              <instance class="exe.engine.lom.lomsubs.LangStringSub">
+               <dictionary>
+                <string role="key" value="language"></string>
+                <string value="es"></string>
+                <string role="key" value="valueOf_"></string>
+                <string value="Fecha de creaci\xc3\xb3n de los metadatos"></string>
+               </dictionary>
+              </instance>
+             </list>
+            </dictionary>
+           </instance>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="uniqueElementName"></string>
+           <none></none>
+           <string role="key" value="valueOf_"></string>
+           <none></none>
+          </dictionary>
+         </instance>
+         <string role="key" value="entity"></string>
+         <list>
+          <instance class="exe.engine.lom.lomsubs.entitySub">
+           <dictionary>
+            <string role="key" value="extensiontype_"></string>
+            <none></none>
+            <string role="key" value="valueOf_"></string>
+            <string value="BEGIN:VCARD VERSION:3.0 FN:Irene Bixquet Vicente EMAIL;TYPE=INTERNET: ORG: END:VCARD"></string>
+           </dictionary>
+          </instance>
+         </list>
+         <string role="key" value="role"></string>
+         <instance class="exe.engine.lom.lomsubs.roleSub">
+          <dictionary>
+           <string role="key" value="extensiontype_"></string>
+           <none></none>
+           <string role="key" value="source"></string>
+           <instance class="exe.engine.lom.lomsubs.sourceValueSub">
+            <dictionary>
+             <string role="key" value="extensiontype_"></string>
+             <none></none>
+             <string role="key" value="string"></string>
+             <list></list>
+             <string role="key" value="uniqueElementName"></string>
+             <string value="source"></string>
+             <string role="key" value="valueOf_"></string>
+             <string value="LOM-ESv1.0"></string>
+            </dictionary>
+           </instance>
            <string role="key" value="uniqueElementName"></string>
            <string value="role"></string>
            <string role="key" value="value"></string>
@@ -9304,6 +9759,10 @@ estudiante a responder la pregunta."></unicode>
    <string role="key" value="454c0f8fc541b5129ecf0a756997d9d1"></string>
    <list>
     <reference key="39"></reference>
+   </list>
+   <string role="key" value="49957fd604d1ad93f324f39d0e46a33a"></string>
+   <list>
+    <reference key="157"></reference>
    </list>
    <string role="key" value="4c16967c0104e7e51fff8678b942d0f1"></string>
    <list>
